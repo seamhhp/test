@@ -1,0 +1,16 @@
+# JMH version: 1.22
+# VM version: JDK 1.8.0_171, Java HotSpot(TM) 64-Bit Server VM, 25.171-b11
+# VM invoker: D:\Program\jdk\jdk1.8.0_171_x64\jre\bin\java.exe
+# VM options: -javaagent:D:\Program\IDEA\2020.3.1\ultimate\lib\idea_rt.jar=56484:D:\Program\IDEA\2020.3.1\ultimate\bin -Dfile.encoding=UTF-8
+# Warmup: 1 iterations, 10 s each
+# Measurement: 10 iterations, 60000 ms each
+# Timeout: 10 min per iteration
+# Threads: 20 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.springbootredis.lettuce.LettuceSyncJmhTest.get
+
+# Run progress: 0.00% complete, ETA 00:10:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 2280.694 ops/s
+Iteration   1: 2706.412 ops/s
+Iteration   2: 
